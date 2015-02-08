@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="fi">
+<head>
+	<meta charset="utf-8">
+	<title>REST client test</title>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+
+	<script type="text/javascript" src="javascripts/ie.cors.js"></script>
+
+	<script type="text/javascript" src="javascripts/is.js"></script>
+	<script type="text/javascript" src="javascripts/notes.js"></script>
+
+	<style type="text/css">
+
+		.edit {
+			display: inline-block;
+			float: right;
+		}
+
+		.row {
+			width: 200px;
+			clear: both;
+			float: left;
+		}
+
+		.row:nth-child(even) {
+			background: #ff0000;
+		}
+
+		label {
+			display: block;
+		}
+
+		textarea {
+			width: 300px;
+			height: 100px;
+		}
+
+		.controls {
+			clear: both;
+		}
+
+		button {
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<h1>Notes REST API test</h1>
+	<form id="lus">
+		<div class="controls">
+			<h2>Post a new note</h2>
+
+			<label for="note">Content</label>
+			<textarea id="note"></textarea>
+			<input type="hidden" id="note-id" />
+			<button>Submit</button>
+		</div>
+
+		<div id="notes">
+
+		</div>
+	</form>
+
+</body>
+</html>
