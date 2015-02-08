@@ -68,3 +68,8 @@ server {
     }
 }
 ```
+
+## References
+
+* http://oskarhane.com/avoid-cors-with-nginx-proxy_pass/
+* https://github.com/MoonScript/jQuery-ajaxTransport-XDomainRequest
